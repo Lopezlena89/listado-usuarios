@@ -1,0 +1,121 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.container{
+    padding: 0;
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height:500px;
+}
+.nav-users{
+    display: flex;
+    flex-direction: row;
+    height: 150px;
+    
+}
+.input{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.input p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.5em;
+}
+.icono-placeholder{
+    width: 60%;
+    height: 40px;
+    border: 1px solid black;
+    border-radius: 0.3em;
+    text-align:start;
+    padding-left: 20px;
+}
+
+.icono-placeholder::placeholder{
+    font-family: "Font Awesome 5 Free" ; 
+    font-weight: 700; 
+    color: #6B6B6B;
+    
+}
+.button{
+    display:flex;
+    flex-direction: row;
+    
+    align-items: flex-end;
+}
+.button *{
+    width: 60px;
+    height: 30px;
+    border: 0;
+    border-radius: 0.3em;
+    background-color: white;
+    margin-left: 8px;
+    margin-bottom: 27px;
+}
+.button *:hover{
+    background-color: #5D7CF9;
+    color:white;
+}
+.button button{
+    color: black;
+    font-size: 10px;
+}
+.users{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.compo-user{
+    width: 250px;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+.compo-user:hover{
+    border: 1px solid #238AD8;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2)
+}
+.first{
+    width: 30%;
+}
+.imagen{
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+    border: 1px solid #238AD8;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    margin-left: 10px;
+}
+.second{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.second p:nth-child(1){
+    
+    
+    font-size: 15px;
+}
+.second p:nth-child(2){
+    font-size: 10px;
+}
+.second button{
+    background-color: white;
+    border-radius: 10px;
+    border: 1px solid #238AD8;
+    width: 70%;
+    height: 25px;
+    font-size: 10px;
+    color: #238AD8;
+}
+
